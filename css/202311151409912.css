@@ -1,0 +1,115 @@
+
+/* 博客名称美化 */
+#blog_name .title {
+    color: #e9b9ab;
+    font-family: "阿里妈妈方圆体 VF Regular";
+}
+
+.article-meta-wrap .twikoo-count {
+    color: #e0653f !important;
+    margin-left: 3px !important;
+    font-size: 12px !important;
+}
+
+/* twikoo 版权信息隐藏 */
+.comment-wrap .tk-footer {
+    display: none !important;
+}
+
+
+/* 装备页字体 */
+.card-content .author-content-item-tips {
+    font-weight: bord !important;
+}
+
+.goodthings-item .goodthings-title {
+    margin-top: 30px !important;
+}
+
+.card-content .author-content-item-title {
+    color: rgb(125, 41, 164);
+}
+
+.content-bottom .tips {
+    color: #a7dcf4;
+    font-weight: 400;
+}
+
+/* 空调取消版权信息 */
+.copyright-box .copyright-p-1,
+.copyright-box p {
+    display: none !important;
+}
+
+/* 文章页字体调整 */
+.recent-post-info .recent-post-info-top .recent-post-info-top-tips .article-categories-original {
+    font-size: 10px !important;
+    font-weight: border !important;
+    font-family: "微软雅黑";
+    margin-top: 3px !important;
+    margin-right: 10px !important;
+
+}
+
+
+/* 博客文章背景颜色美化 */
+[data-theme="light"] .post {
+    background: linear-gradient(-45deg,
+            #f7f1e8,
+            #fdf8f6,
+            #ddf1f1,
+            #f3f3fb,
+            #f1e7ed);
+}
+
+
+
+/* nav 图标美化 */
+.back-home-button .anzhiyu-icon-bars {
+    color: #b63836 !important;
+}
+
+/* 右下角按钮隐藏 */
+#rightside {
+    display: none;
+}
+
+/* 博客文章字体下划线移入动画 */
+/* #article-container p { 
+    background: linear-gradient(to right, #d4716c, #eaa5a2, #e9b9ab, #f1e7ed) no-repeat right bottom;
+    background-size: 0px 2px;
+    transition: background-size 1s;
+}
+
+#article-container p:hover {
+    background-position: left bottom;
+    background-size: 100% 2px;
+} */
+
+
+/* algolia 取消logo */
+#algolia-info .algolia-poweredBy {
+    display: none !important;
+}
+
+/* 取消导航栏随机前往一个项目网站 */
+#nav-right #travellings_button {
+    display: none;
+}
+
+
+/* 随即前往一个文章 图标旋转 */
+#nav-right .nav-button .site-page .anzhiyu-icon-fan {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
